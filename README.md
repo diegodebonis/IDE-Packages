@@ -2,6 +2,7 @@
 - Tab length: 4
 - Tab type: soft
 - Show invisibles: true
+- Syntax theme: Base16 Tomorrow Dark
 
 ### Atom Beautify
 https://atom.io/packages/atom-beautify
@@ -48,7 +49,7 @@ https://atom.io/packages/linter-eslint
 ### Linter UI
 https://atom.io/packages/linter-ui-default
 
-## File icons
+### File icons
 https://atom.io/packages/logo-file-icons
 
 ### Minimap
