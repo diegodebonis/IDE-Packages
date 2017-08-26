@@ -4,20 +4,20 @@
 - Show invisibles: true
 - Syntax theme: Base16 Tomorrow Dark
 
-### Atom Beautify
-https://atom.io/packages/atom-beautify
+### Atom Beautify (Galvin001)
+#### https://atom.io/packages/atom-beautify
 
-### Atom Class Checker
-https://atom.io/packages/atom-css-class-checker
+### Atom CSS Class Checker (js-padavan)
+#### https://atom.io/packages/atom-css-class-checker
 
-### Atom autocomplete import
-https://atom.io/packages/autocomplete-module-import
+### Atom autocomplete import (algolia)
+#### https://atom.io/packages/autocomplete-module-import
 
-### Busy signal
-https://atom.io/packages/busy-signal
+### Busy signal (steelbrain)
+#### https://atom.io/packages/busy-signal
 
-### Emmet
-https://atom.io/packages/emmet
+### Emmet (emmetio)
+#### https://atom.io/packages/emmet
 - Little config:
 ```
 Atom > Open Your Keymap
@@ -28,47 +28,47 @@ Paste this in:
 'tab': 'emmet:expand-abbreviation-with-tab'
 ```
 
-### Fold functions
-https://atom.io/packages/fold-functions
+### Fold functions (robballou)
+#### https://atom.io/packages/fold-functions
 
-### Fonts (segoe UI)
-https://atom.io/packages/fonts
+### Fonts (braver)
+#### https://atom.io/packages/fonts
 
-### Highlight selected
-https://atom.io/packages/highlight-selected
+### Highlight selected (richrace)
+#### https://atom.io/packages/highlight-selected
 
-### Intentions
-https://atom.io/packages/intentions
+### Intentions (steelbrain)
+#### https://atom.io/packages/intentions
 
-### Linter
-https://atom.io/packages/linter
+### Linter (steelbrain)
+#### https://atom.io/packages/linter
 
-### Eslint
-https://atom.io/packages/linter-eslint
+### Eslint (AtomLinter)
+#### https://atom.io/packages/linter-eslint
 
-### Linter UI
-https://atom.io/packages/linter-ui-default
+### Linter UI (AtomLinter)
+#### https://atom.io/packages/linter-ui-default
 
-### File icons
-https://atom.io/packages/logo-file-icons
+### File icons (manuelbieh)
+#### https://atom.io/packages/logo-file-icons
 
-### Minimap
-https://atom.io/packages/minimap
+### Minimap (atom-minimap)
+#### https://atom.io/packages/minimap
 
-### Pigments
-https://atom.io/packages/pigments
+### Pigments (abe33)
+#### https://atom.io/packages/pigments
 
-### React
-https://atom.io/packages/react
+### React (orktes)
+#### https://atom.io/packages/react
 
-### React native snippets
-https://atom.io/packages/react-native-snippets
+### React native snippets (aakashns)
+#### https://atom.io/packages/react-native-snippets
 
-### React snippets
-https://atom.io/packages/react-snippets
+### React snippets (webbushka)
+#### https://atom.io/packages/react-snippets
 
-### Tabs to spaces
-https://atom.io/packages/tabs-to-spaces
+### Tabs to spaces (lee-dohm)
+#### https://atom.io/packages/tabs-to-spaces
 
 
 
