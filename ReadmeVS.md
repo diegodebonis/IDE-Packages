@@ -8,6 +8,12 @@
 - Material icon theme (philipp kief)
 - vscode-icons (roberto huertas)
 
+### Install firacode font
+
+
+[Link](https://github.com/tonsky/FiraCode/wiki/Linux-instructions)
+
+
 ### settings.json
 ```
 {
