@@ -7,6 +7,8 @@
 - LevelUp Theme official (leveluptutorials)
 - Material icon theme (philipp kief)
 - vscode-icons (roberto huertas)
+- ESLint (Dirk Baeumer)
+- Prettier (Esben Petersen)
 
 ### Install firacode font
 
@@ -17,8 +19,23 @@
 ### settings.json
 ```
 {
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "prettier.disableLanguages": [
+        "js"
+    ],
+    "files.autoSave": "onFocusChange",
     "editor.fontSize": 12,
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
+    "editor.fontWeight": "500",
+    "editor.cursorBlinking": "solid",
+    "editor.rulers": [
+        80
+    ],
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 12,
@@ -62,6 +79,7 @@
     "material-icon-theme.showUpdateMessage": false
 }
 ```
+
 ### keybindings.json
 ```
 [
