@@ -57,7 +57,27 @@
     "workbench.startupEditor": "newUntitledFile",
     "vsicons.dontShowNewVersionMessage": true,
     "material-icon-theme.showUpdateMessage": false,
-    "workbench.colorTheme": "Cobalt2"
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.other.attribute-name"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#7cDD6e"
+                },
+            },
+            {
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
 }
 ```
 
@@ -78,3 +98,5 @@
 wget https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable -O /tmp/code_latest_amd64.deb
 sudo dpkg -i /tmp/code_latest_amd64.deb
 ```
+
+#### color theme: Dark+
