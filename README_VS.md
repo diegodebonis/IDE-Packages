@@ -23,46 +23,26 @@
     "[javascript]": {
         "editor.formatOnSave": false
     },
+    "files.trimTrailingWhitespace": true,
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
     "prettier.disableLanguages": [
         "js"
     ],
     "files.autoSave": "onFocusChange",
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "editor.tabSize": 2,
-    "editor.fontWeight": "500",
+    "editor.fontWeight": "400",
     "editor.cursorBlinking": "solid",
     "editor.rulers": [
         80
     ],
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 12,
     "editor.renderWhitespace": "boundary",
     "workbench.colorCustomizations": {
         "editorWhitespace.foreground": "#FFD"
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "entity.other.attribute-name"
-                ],
-                "settings": {
-                    "fontStyle": "italic",
-                    "foreground": "#7cDD6e"
-                },
-            },
-            {
-                "scope": [
-                    "comment"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
     },
     "files.associations": {
         "*.js": "javascriptreact"
@@ -76,7 +56,8 @@
     "emmet.showExpandedAbbreviation": "always",
     "workbench.startupEditor": "newUntitledFile",
     "vsicons.dontShowNewVersionMessage": true,
-    "material-icon-theme.showUpdateMessage": false
+    "material-icon-theme.showUpdateMessage": false,
+    "workbench.colorTheme": "Cobalt2"
 }
 ```
 
