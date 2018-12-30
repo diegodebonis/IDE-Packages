@@ -9,6 +9,7 @@
 - vscode-icons (roberto huertas)
 - ESLint (Dirk Baeumer)
 - Prettier (Esben Petersen)
+- Line Endings (Johnny Hartell)
 
 ### Install firacode font
 
