@@ -10,6 +10,8 @@
 - ESLint (Dirk Baeumer)
 - Prettier (Esben Petersen)
 - Line Endings (Johnny Hartell)
+- Custom CSS and JS Loader (be5invis)
+- One Monokai theme (monokai)
 
 ### Install firacode font
 
@@ -20,65 +22,87 @@
 ### settings.json
 ```
 {
-    "editor.formatOnSave": true,
-    "[javascript]": {
-        "editor.formatOnSave": false
+  "explorer.openEditors.visible": 0,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "files.trimTrailingWhitespace": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": [
+    "js"
+  ],
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.cursorBlinking": "solid",
+  "editor.rulers": [
+    80
+  ],
+  "editor.fontFamily": "Operator Mono Light, Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 13,
+  "editor.renderWhitespace": "boundary",
+  "workbench.colorCustomizations": {
+    "editorWhitespace.foreground": "#FFD",
+  },
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.tokenColorCustomizations": {
+    "[One Monokai]": {
+      "variables": "#56b6c2",
+      "textMateRules": [{
+          "scope": "keyword.control",
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        },
+        {
+          "scope": "keyword.operator",
+          "settings": {
+            "foreground": "#e06c75",
+          },
+        },
+        {
+          "scope": "storage.type.function.arrow.js",
+          "settings": {
+            "foreground": "#61afed"
+          }
+        },
+        {
+          "scope": "punctuation.definition.template-expression.begin.js",
+          "settings": {
+            "foreground": "#e5c07a"
+          },
+        },
+        {
+          "scope": "punctuation.definition.template-expression.end.js",
+          "settings": {
+            "foreground": "#e5c07a"
+          },
+        }
+      ],
     },
-    "files.trimTrailingWhitespace": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.alwaysShowStatus": true,
-    "prettier.disableLanguages": [
-        "js"
-    ],
-    "files.autoSave": "onFocusChange",
-    "editor.fontSize": 14,
-    "editor.tabSize": 2,
-    "editor.fontWeight": "400",
-    "editor.cursorBlinking": "solid",
-    "editor.rulers": [
-        80
-    ],
-    "editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 12,
-    "editor.renderWhitespace": "boundary",
-    "workbench.colorCustomizations": {
-        "editorWhitespace.foreground": "#FFD"
+    "keywords": {
+      "foreground": "#61afef",
     },
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.showExpandedAbbreviation": "always",
-    "workbench.startupEditor": "newUntitledFile",
-    "vsicons.dontShowNewVersionMessage": true,
-    "material-icon-theme.showUpdateMessage": false,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "entity.other.attribute-name"
-                ],
-                "settings": {
-                    "fontStyle": "italic",
-                    "foreground": "#7cDD6e"
-                },
-            },
-            {
-                "scope": [
-                    "comment"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
+  },
+  "files.eol": "\n",
+  "window.zoomLevel": -1,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "One Monokai",
+  "vscode_custom_css.imports": ["file:///C:/Users/diego/.vscode/style.css"],
 }
 ```
 
@@ -100,4 +124,9 @@ wget https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable -O /tmp
 sudo dpkg -i /tmp/code_latest_amd64.deb
 ```
 
-#### color theme: Dark+
+### styles.css
+```
+.mtk16 {
+	font-family: "Fira Code";
+}
+```
